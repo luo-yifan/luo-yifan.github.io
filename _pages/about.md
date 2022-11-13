@@ -8,16 +8,11 @@ redirect_from:
   - /about.html
 ---
 ```
-
-
-
                O
        /~~~|#|]|=\|---\__
      |-=_____________  |\\ ,     O       O
     I|_/,-.-.-.-.-,-.\_|='(     T/\     /\=,---.
        ( o )( o )( o )     \    U /\   /\   `O' 
         `-'-'-'-'-`-'
-
-
 ```
 Hi all, welcome to Yifan's personal website! This website is still under construction. 

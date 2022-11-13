@@ -46,7 +46,9 @@ GIS Specialist
 - Analyzed the potential carbon storage for energy crops, agricultural production, and forest resources on a county level
 - Mapped the distance from the Heavy-Duty Vehicle charging stations to the nearest existing electric transmission line of each capacity class to compare transmission expansion cost with wholesale purchase cost
 
+
 ## Environmental Spatial Analysis Lab, University of Michigan
+
 Research Assistant
 
 *May 2021 – Dec. 2021*

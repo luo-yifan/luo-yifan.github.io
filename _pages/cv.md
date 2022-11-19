@@ -13,19 +13,26 @@ redirect_from:
 
 ## University of Michigan, Ann Arbor
 Master of Science in Environment and Sustainability
+
 *Sept. 2020 – April 2022*
+
 - Specializations: Ecosystem Science and Management, Geospatial Data Sciences
 - GPA: 3.96/4 
 - Advisors: Dr. Andrew Gronewold, Dr. Derek van Berkel
 
 ## University of British Columbia	
-Bachelor of Science in Forest Science	*Sept. 2018 – May 2020*
+Bachelor of Science in Forest Science	
+
+*Sept. 2018 – May 2020*
+
 - Specialization: Forest Ecology
 - GPA: 80/100 (A-)
 - Award: Dean's Honor Roll
 
 ## Beijing Forestry University	
-Bachelor of Science in Biotechnology *Sept. 2015 – June 2020*
+Bachelor of Science in Biotechnology 
+
+*Sept. 2015 – June 2020*
 
 # Research Experience 
 

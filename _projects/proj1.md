@@ -1,7 +1,7 @@
 ---
-title: 'Investigating uncertainty associated with the Great Lakes water balance using the Large Lake Statistical Water Balance Model'
+title: "Investigating uncertainty associated with the Great Lakes water balance using the Large Lake Statistical Water Balance Model"
 collection: projects
-permalink: /projects/proj1
+permalink: /projects/proj3
 excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
 date: 2022-04-01
 venue: 'Master’s practicum, University of Michigan'

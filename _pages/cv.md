@@ -79,6 +79,9 @@ Volunteer Research Assistant	Sept. 2017 – May 2018
 - Attended and organized weekly professional seminars, networking with other research students and faculty
 
 # Research Projects 
+  <ul>{% for post in site.projects %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 
 ## Investigating uncertainty associated with the Great Lakes water balance using the Large Lake Statistical Water Balance Model 
 - Worked alongside the US Army Corps of Engineers to improve upon the current and standard Bayesian model used to validate hydroclimate data over the Great Lakes

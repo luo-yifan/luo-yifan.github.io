@@ -32,24 +32,35 @@ Bachelor of Science in Biotechnology  *(Sept. 2015 – June 2020)*
 
 ## Hydrologic Science and Uncertainty Assessment Lab, University of Michigan
 Graduate Student Research Assistant *(March 2021 – present)*
+
 - Led three research projects on Great Lakes hydrologic and hydrodynamic model under a Bayesian Markov chain Monte Carlo framework
 - Conducted statistical research on the water balance model optimization and analyzed quantitative and qualitative data 
 - Delivered research presentations and wrote technical reports to communicate findings
 
 ## Center for Sustainable Systems, University of Michigan
-GIS Specialist *(May 2022 – Sept. 2022)*
+GIS Specialist		   
+
+*May 2022 – Sept. 2022*
+
 - Analyzed the potential carbon storage for energy crops, agricultural production, and forest resources on a county level
 - Mapped the distance from the Heavy-Duty Vehicle charging stations to the nearest existing electric transmission line of each capacity class to compare transmission expansion cost with wholesale purchase cost
 
 
 ## Environmental Spatial Analysis Lab, University of Michigan
-Research Assistant *(May 2021 – Dec. 2021)*
+
+Research Assistant
+
+*May 2021 – Dec. 2021*
+
 - Managed University properties' geodatabase, map composite, and related metadata for their landcover and land-use change
 - Created a user manual for MField, a comprehensive data repository and information management system for field-based research among University of Michigan-owned properties 
 - Validated and cleaned up geospatial datasets and data products from recent research projects to ensure data integrity
 
 ## Institute of Applied Ecology, Shanghai Academy of Environmental Science
-Lab Intern *(June 2018 – Aug. 2018)*
+Lab Intern		
+
+*June 2018 – Aug. 2018*
+
 - Conducted field experiments on precipitation runoff, nitrogen transition, soil evaporation, and plant transpiration 
 - Collaborated and coordinated with research investigators in designing experiments and reviewing experimental data 
 - Performed routine lab equipment calibration and function checks to ensure accuracy and managed laboratory inventory, including organizing, ordering, and scheduling equipment use
@@ -66,6 +77,7 @@ Volunteer Research Assistant	Sept. 2017 – May 2018
 * **Languages**: English (Fluent), Mandarin (Native), Japanese (Conversational), German (Conversational)
 <br/>
 <br/>
+
 # Research Projects 
   <ul>{% for post in site.projects %}
     {% include archive-single-cv.html %}

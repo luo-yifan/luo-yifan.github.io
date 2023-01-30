@@ -38,9 +38,7 @@ Graduate Student Research Assistant *(March 2021 – present)*
 - Delivered research presentations and wrote technical reports to communicate findings
 
 ## Center for Sustainable Systems, University of Michigan
-GIS Specialist		   
-
-*May 2022 – Sept. 2022*
+GIS Specialist		   *(May 2022 – Sept. 2022)*
 
 - Analyzed the potential carbon storage for energy crops, agricultural production, and forest resources on a county level
 - Mapped the distance from the Heavy-Duty Vehicle charging stations to the nearest existing electric transmission line of each capacity class to compare transmission expansion cost with wholesale purchase cost
@@ -48,18 +46,14 @@ GIS Specialist
 
 ## Environmental Spatial Analysis Lab, University of Michigan
 
-Research Assistant
-
-*May 2021 – Dec. 2021*
+Research Assistant *(May 2021 – Dec. 2021)*
 
 - Managed University properties' geodatabase, map composite, and related metadata for their landcover and land-use change
 - Created a user manual for MField, a comprehensive data repository and information management system for field-based research among University of Michigan-owned properties 
 - Validated and cleaned up geospatial datasets and data products from recent research projects to ensure data integrity
 
 ## Institute of Applied Ecology, Shanghai Academy of Environmental Science
-Lab Intern		
-
-*June 2018 – Aug. 2018*
+Lab Intern *(June 2018 – Aug. 2018)*
 
 - Conducted field experiments on precipitation runoff, nitrogen transition, soil evaporation, and plant transpiration 
 - Collaborated and coordinated with research investigators in designing experiments and reviewing experimental data 
@@ -71,6 +65,7 @@ Volunteer Research Assistant	Sept. 2017 – May 2018
 - Attended and organized weekly professional seminars, networking with other research students and faculty
 <br/>
 <br/>
+
 # Skills
 * **Computer**: R, Python, LaTeX, GitHub, ArcGIS, ERDAS, NetLogo, Prism, Microsoft Office Suite: Word, Excel, PowerPoint
 * **Statistical**: Descriptive statistics, experiment design, hypothesis testing, regression analysis, probability distributions, multivariate analysis, Bayesian inference, time-series analysis, data visualization

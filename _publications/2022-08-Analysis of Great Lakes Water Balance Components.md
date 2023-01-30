@@ -10,4 +10,4 @@ venue: 'Technical report as a supplement to the 2023 Cumulative Impact Assessmen
 ---
 Ensuring continued access to freshwater is an essential part of managing consumptive use, withdrawals and diversions in the Great Lakes system. This is primarily accomplished through the Great Lakes Compact Agreement, administered by the Great Lakes and St. Lawrence Governors and Premiers' Regional Body and Compact Council. We used the latest findings from the Large Lake Statistical Water Balance Model to better understand historical trends in precipitation, evaporation, runoff and inter-lake flow. These findings will be incorporated into the next iteration of Cumulative Impact Assessments in support of informed decision making by the Great Lakes and St. Lawrence Governors and Premiers.
 
-[Technical report here](https://drive.google.com/drive/u/0/folders/1jnPpXRPtLwYA_9LhFP4p_AdmT5VjKNrU)
+[Technical report here](https://drive.google.com/file/d/1M759o5_qNbwXJH2SKzdGb5mkhVJTE4FN/view?usp=sharing)

@@ -28,6 +28,8 @@ Bachelor of Science in Forest Science	*(Sept. 2018 – May 2020)*
 ## Beijing Forestry University	
 Bachelor of Science in Biotechnology  *(Sept. 2015 – June 2020)*
 
+<br/>
+
 # Research Experience 
 
 ## Hydrologic Science and Uncertainty Assessment Lab, University of Michigan
@@ -64,13 +66,11 @@ Volunteer Research Assistant	Sept. 2017 – May 2018
 ◦ Assisted research projects in the synthesis and design of multifunctional nanomaterials through the creation of research posters, delivery of presentations, and writing in annotated bibliographies
 - Attended and organized weekly professional seminars, networking with other research students and faculty
 <br/>
-<br/>
 
 # Skills
 * **Computer**: R, Python, LaTeX, GitHub, ArcGIS, ERDAS, NetLogo, Prism, Microsoft Office Suite: Word, Excel, PowerPoint
 * **Statistical**: Descriptive statistics, experiment design, hypothesis testing, regression analysis, probability distributions, multivariate analysis, Bayesian inference, time-series analysis, data visualization
 * **Languages**: English (Fluent), Mandarin (Native), Japanese (Conversational), German (Conversational)
-<br/>
 <br/>
 
 # Research Projects 
@@ -97,13 +97,11 @@ Volunteer Research Assistant	Sept. 2017 – May 2018
 - Attributed water balance component changes to regional climate patterns and assessed the impact of climate change on future water budgets
 - Prepared a summary report that is utilized as a scientific basis for the *“Cumulative Impact Assessment of Withdrawals, Consumptive Uses, and Diversions”* report and presented results to the Conference of Great Lakes and St. Lawrence Governors and Premiers -->
 <br/>
-<br/>
 
 # Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-<br/>
 <br/>
 
 # Presentations
@@ -111,7 +109,6 @@ Volunteer Research Assistant	Sept. 2017 – May 2018
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-<br/>
 <br/>
 
 # Teaching

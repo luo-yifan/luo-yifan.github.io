@@ -14,4 +14,4 @@ My research interests lie in studying the interdisciplinary science of hydrology
 (2) the uncertainty associated with water balance components in predicting natural hazard impacts on human welfare;
 (3) the influence of any land surface property alteration and climate change on regional hydroclimatology, and vice versa, the feedback of changing hydrological regimes on the regional climate.
 
-Outside of academics, I enjoy road trips, films, board games, music, and photography. I also spend a lot of my time dreaming about having a cat one day. To get in touch, please find my contact information below.
+Outside of academics, I enjoy road trips, films, board games, music, and photography. I also spend a lot of my time dreaming about having a cat one day. To get in touch, please find my contact information on the left.

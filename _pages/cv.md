@@ -65,12 +65,14 @@ Volunteer Research Assistant	Sept. 2017 – May 2018
 - Coded and analyzed quantitative data in carbon capture and utilization using Excel
 ◦ Assisted research projects in the synthesis and design of multifunctional nanomaterials through the creation of research posters, delivery of presentations, and writing in annotated bibliographies
 - Attended and organized weekly professional seminars, networking with other research students and faculty
+
 <br/>
 
 # Skills
 * **Computer**: R, Python, LaTeX, GitHub, ArcGIS, ERDAS, NetLogo, Prism, Microsoft Office Suite: Word, Excel, PowerPoint
 * **Statistical**: Descriptive statistics, experiment design, hypothesis testing, regression analysis, probability distributions, multivariate analysis, Bayesian inference, time-series analysis, data visualization
 * **Languages**: English (Fluent), Mandarin (Native), Japanese (Conversational), German (Conversational)
+
 <br/>
 
 # Research Projects 

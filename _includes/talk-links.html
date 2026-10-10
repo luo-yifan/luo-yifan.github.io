@@ -1,0 +1,9 @@
+{% assign item = include.item %}
+{% assign talk_links = "" | split: "" %}
+{% if include.files and item.poster_url %}{% capture talk_link %}<a href="{{ item.poster_url }}">Online poster</a>{% endcapture %}{% assign talk_links = talk_links | push: talk_link %}{% endif %}
+{% if include.files and item.poster_pdf %}{% capture talk_link %}<a href="{{ item.poster_pdf | prepend: base_path }}">Poster</a>{% endcapture %}{% assign talk_links = talk_links | push: talk_link %}{% endif %}
+{% if include.files and item.slides_url %}{% capture talk_link %}<a href="{{ item.slides_url | prepend: base_path }}">Slides</a>{% endcapture %}{% assign talk_links = talk_links | push: talk_link %}{% endif %}
+{% assign abstract_link = item.abstract_url | default: item.agu_url %}
+{% if abstract_link %}{% capture talk_link %}<a href="{{ abstract_link }}">Abstract</a>{% endcapture %}{% assign talk_links = talk_links | push: talk_link %}{% endif %}
+{% if item.ads_bibcode %}{% capture talk_link %}<a href="https://ui.adsabs.harvard.edu/abs/{{ item.ads_bibcode }}/abstract">Citation</a>{% endcapture %}{% assign talk_links = talk_links | push: talk_link %}{% endif %}
+{% if talk_links.size > 0 %}<p{% if include.class %} class="{{ include.class }}"{% endif %}>{{ talk_links | join: " | " }}</p>{% endif %}

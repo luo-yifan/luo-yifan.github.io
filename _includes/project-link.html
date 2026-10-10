@@ -1,0 +1,4 @@
+{% if include.item.project %}
+  {% assign item_project = site.projects | where: "project_id", include.item.project | first %}
+  {% if item_project %}<p class="page__date"><strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i>Project:</strong> <a href="{{ base_path }}{{ item_project.url }}">{{ item_project.title }}</a></p>{% endif %}
+{% endif %}

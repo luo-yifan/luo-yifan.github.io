@@ -1,0 +1,18 @@
+---
+layout: archive
+title: "Presentations"
+permalink: /talks/
+author_profile: true
+---
+
+<h2 class="archive__subtitle">Talks</h2>
+{% assign talks = site.talks | where: "type", "Presentation" | reverse %}
+{% for post in talks %}
+  {% include archive-single-talk.html %}
+{% endfor %}
+
+<h2 class="archive__subtitle">Posters</h2>
+{% assign talks = site.talks | where: "type", "Poster" | reverse %}
+{% for post in talks %}
+  {% include archive-single-talk.html %}
+{% endfor %}

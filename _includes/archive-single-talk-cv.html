@@ -1,0 +1,14 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<li class="cv-entry">
+  <a class="cv-entry__title" href="{{ base_path }}{{ post.url }}">{{ title }}</a>
+  <div class="cv-entry__meta">{{ post.date | date: '%B %Y' }}{% if post.venue %} · {{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}{% endif %}</div>
+  {% if post.award %}<div class="cv-entry__award"><i class="fas fa-fw fa-trophy" aria-hidden="true"></i> {{ post.award }}</div>{% endif %}
+  {% include talk-links.html item=post class="cv-entry__links" files=true %}
+</li>

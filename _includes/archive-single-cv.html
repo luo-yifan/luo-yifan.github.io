@@ -1,0 +1,16 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<li class="cv-entry">
+  <a class="cv-entry__title" href="{{ base_path }}{{ post.url }}">{{ title }}</a>
+  {% if post.citation %}
+    <div class="cv-entry__detail">{{ post.citation }}</div>
+  {% elsif post.collection == 'teaching' %}
+    <div class="cv-entry__meta">{{ post.type }} · {{ post.venue }} · {{ post.date | date: "%Y" }}</div>
+  {% endif %}
+</li>

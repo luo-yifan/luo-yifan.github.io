@@ -1,0 +1,26 @@
+{% assign related_pubs = site.publications | where: "project", page.project_id | reverse %}
+{% assign related_talks = site.talks | where: "project", page.project_id | reverse %}
+
+{% if related_pubs.size > 0 %}
+<h2 class="project-related__title">Related Publications</h2>
+<ul class="project-related">
+  {% for item in related_pubs %}
+  <li>
+    <a href="{{ base_path }}{{ item.url }}">{{ item.title }}</a>
+    <div class="project-related__meta"><i>{{ item.venue }}</i> · {% if item.status %}{{ item.status }}{% else %}{{ item.date | date: "%Y" }}{% endif %}</div>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if related_talks.size > 0 %}
+<h2 class="project-related__title">Related Presentations</h2>
+<ul class="project-related">
+  {% for item in related_talks %}
+  <li>
+    <a href="{{ base_path }}{{ item.url }}">{{ item.title }}</a>
+    <div class="project-related__meta">{{ item.type }} · {{ item.date | date: '%B %Y' }} · {{ item.venue }}</div>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}

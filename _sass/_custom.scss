@@ -1,0 +1,169 @@
+/* ==========================================================================
+   SITE CUSTOMIZATIONS
+   Keep list pages as readable as single pages, and give every list entry the
+   same hierarchy: title, small meta line, citation or summary, links.
+   ========================================================================== */
+
+/* List pages use the same text column as single pages */
+.archive {
+  @include breakpoint($large) {
+    @include suffix(2 of 12);
+  }
+}
+
+/* Page titles that wrap need breathing room */
+.page__title {
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+}
+
+/* Entry titles: link color without a heavy underline */
+.archive .archive__item-title {
+  line-height: 1.3;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.archive__item .page__meta {
+  margin: 0 0 0.5em;
+}
+
+.archive__item-excerpt {
+  font-size: 0.9em;
+
+  p {
+    margin: 0 0 0.5em;
+  }
+}
+
+.archive__item-links {
+  margin: 0 0 0.5em;
+  font-size: $type-size-6;
+}
+
+/* Stack the date and venue lines under a talk title */
+.page__inner-wrap header .page__date {
+  margin: 0 0 0.25em;
+}
+
+.page__inner-wrap header {
+  margin-bottom: 1.5em;
+}
+
+/* ==========================================================================
+   CV PAGE
+   One type scale for every section: section heading, institution or
+   sub-section heading, then body-size entries with muted dates and details.
+   ========================================================================== */
+
+.cv {
+  /* Sections */
+  h2 {
+    margin: 2em 0 0.75em;
+    padding-bottom: 0.3em;
+    font-size: $type-size-4;
+    border-bottom: 1px solid $border-color;
+  }
+
+  /* Institutions and sub-sections */
+  h3 {
+    margin: 1.4em 0 0.2em;
+    font-size: $type-size-5;
+
+    a {
+      color: inherit;
+      text-decoration-color: $light-gray;
+
+      &:hover {
+        color: $link-color;
+      }
+    }
+  }
+
+  h2 + h3 {
+    margin-top: 0.75em;
+  }
+
+  p {
+    margin: 0 0 0.5em;
+  }
+
+  ul {
+    margin: 0.3em 0 0.75em;
+  }
+
+  li {
+    margin-bottom: 0.35em;
+  }
+
+  /* Dates written in italics in the CV source */
+  em {
+    color: $gray;
+  }
+}
+
+/* Publication, presentation and teaching entries */
+.cv-list {
+  .cv-entry {
+    margin-bottom: 0.75em;
+  }
+}
+
+.cv-entry__title {
+  font-weight: bold;
+  color: $text-color;
+
+  .archive & {
+    text-decoration: none;
+  }
+
+  &:hover {
+    color: $link-color;
+    text-decoration: underline;
+  }
+}
+
+.cv-entry__detail {
+  margin-top: 0.15em;
+  font-size: 0.9em;
+}
+
+.cv-entry__meta {
+  margin-top: 0.15em;
+  font-size: $type-size-6;
+  color: mix(#fff, $gray, 25%);
+}
+
+.cv-entry__links {
+  margin: 0.15em 0 0;
+  font-size: $type-size-6;
+}
+
+/* Awards on presentation entries */
+.archive__item-award,
+.cv-entry__award {
+  margin: 0.15em 0 0.4em;
+  font-size: $type-size-6;
+  font-weight: bold;
+  color: #a5781a;
+}
+
+/* Related publications and presentations on project pages */
+.project-related {
+  padding-left: 1.2em;
+
+  li {
+    margin-bottom: 0.6em;
+  }
+}
+
+.project-related__meta {
+  font-size: $type-size-6;
+  color: mix(#fff, $gray, 25%);
+}
